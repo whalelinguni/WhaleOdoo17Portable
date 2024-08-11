@@ -18,3 +18,9 @@ requests>=2.28
 remove libsass
 install the binary before requirements
 and work? probably not. but lets see. clearing shit out now. 
+
+
+
+edit:
+
+all fail. version issues too much. trying 3.10.1
