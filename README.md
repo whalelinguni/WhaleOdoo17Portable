@@ -34,3 +34,9 @@ do not need to change other requirements just remove the libsass from requiremen
 odoo is initilizing for me now
 
 seems to work!
+
+
+edit
+
+
+writing ideally the final actual working version now. I think I am almost done.
