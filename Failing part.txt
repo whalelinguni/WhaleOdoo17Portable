@@ -78,11 +78,11 @@ Collecting psycopg2==2.9.5 (from -r requirements.txt (line 32))
   │ exit code: 1
   ╰─> [23 lines of output]
       running egg_info
-      creating C:\Users\MINE\AppData\Local\Temp\pip-pip-egg-info-vonzidtm\psycopg2.egg-info
-      writing C:\Users\MINE\AppData\Local\Temp\pip-pip-egg-info-vonzidtm\psycopg2.egg-info\PKG-INFO
-      writing dependency_links to C:\Users\MINE\AppData\Local\Temp\pip-pip-egg-info-vonzidtm\psycopg2.egg-info\dependency_links.txt
-      writing top-level names to C:\Users\MINE\AppData\Local\Temp\pip-pip-egg-info-vonzidtm\psycopg2.egg-info\top_level.txt
-      writing manifest file 'C:\Users\MINE\AppData\Local\Temp\pip-pip-egg-info-vonzidtm\psycopg2.egg-info\SOURCES.txt'
+      creating C:\Users\JESUS\AppData\Local\Temp\pip-pip-egg-info-vonzidtm\psycopg2.egg-info
+      writing C:\Users\JESUS\AppData\Local\Temp\pip-pip-egg-info-vonzidtm\psycopg2.egg-info\PKG-INFO
+      writing dependency_links to C:\Users\JESUS\AppData\Local\Temp\pip-pip-egg-info-vonzidtm\psycopg2.egg-info\dependency_links.txt
+      writing top-level names to C:\Users\JESUS\AppData\Local\Temp\pip-pip-egg-info-vonzidtm\psycopg2.egg-info\top_level.txt
+      writing manifest file 'C:\Users\JESUS\AppData\Local\Temp\pip-pip-egg-info-vonzidtm\psycopg2.egg-info\SOURCES.txt'
 
       Error: pg_config executable not found.
 
