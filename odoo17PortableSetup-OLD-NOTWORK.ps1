@@ -1,3 +1,4 @@
+## THIS IS THE NOT WORK VERSION
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------#
 #
 #  Skip to line 260ish for the script start. The junk below is just a bunch of my super common used standard functions and setup and self elevation stuff.
