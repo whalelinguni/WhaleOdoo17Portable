@@ -1,0 +1,115 @@
+When I first tested this manually setting it up. I don't recall setting any paths for python/sql. Even if I set them, while it will get past this error. 
+It will shower you with a ton of new errors. I used this exact version of everything originally. 
+I don't feel like messing with this anymore.
+Once that bit is fixed, and the last whatever made sure it works, initilaizing the odoo crap, this script should work.
+Would need a launcher or something probably for ease of use. but that would be all of a dozen lines at most.
+Currently this is not setting any env vars that may need to be removed when the portable stuff is shut down.
+
+
+
+
+Console output:
+
+Ignoring gevent: markers 'python_version == "3.10"' don't match your environment
+Ignoring greenlet: markers 'python_version == "3.10"' don't match your environment
+Ignoring Jinja2: markers 'python_version <= "3.10"' don't match your environment
+Ignoring lxml: markers 'python_version <= "3.10"' don't match your environment
+Ignoring MarkupSafe: markers 'python_version <= "3.10"' don't match your environment
+Ignoring Pillow: markers 'python_version <= "3.10"' don't match your environment
+Ignoring psutil: markers 'python_version <= "3.10"' don't match your environment
+Ignoring psycopg2: markers 'sys_platform != "win32" and python_version <= "3.10"' don't match your environment
+Ignoring PyPDF2: markers 'python_version <= "3.10"' don't match your environment
+Ignoring python-ldap: markers 'sys_platform != "win32"' don't match your environment
+Ignoring reportlab: markers 'python_version <= "3.10"' don't match your environment
+Collecting Babel==2.9.1 (from -r requirements.txt (line 3))
+  Using cached Babel-2.9.1-py2.py3-none-any.whl.metadata (1.2 kB)
+Collecting chardet==4.0.0 (from -r requirements.txt (line 4))
+  Using cached chardet-4.0.0-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting cryptography==3.4.8 (from -r requirements.txt (line 5))
+  Using cached cryptography-3.4.8-cp36-abi3-win_amd64.whl.metadata (5.1 kB)
+Collecting decorator==4.4.2 (from -r requirements.txt (line 6))
+  Using cached decorator-4.4.2-py2.py3-none-any.whl.metadata (4.2 kB)
+Collecting docutils==0.17 (from -r requirements.txt (line 7))
+  Using cached docutils-0.17-py2.py3-none-any.whl.metadata (2.9 kB)
+Collecting ebaysdk==2.1.5 (from -r requirements.txt (line 8))
+  Using cached ebaysdk-2.1.5-py3-none-any.whl
+Collecting freezegun==1.1.0 (from -r requirements.txt (line 9))
+  Using cached freezegun-1.1.0-py2.py3-none-any.whl.metadata (10 kB)
+Collecting geoip2==2.9.0 (from -r requirements.txt (line 10))
+  Using cached geoip2-2.9.0-py2.py3-none-any.whl.metadata (13 kB)
+Collecting gevent==22.10.2 (from -r requirements.txt (line 12))
+  Using cached gevent-22.10.2.tar.gz (6.6 MB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting greenlet==2.0.2 (from -r requirements.txt (line 14))
+  Using cached greenlet-2.0.2.tar.gz (164 kB)
+  Preparing metadata (setup.py) ... done
+Collecting idna==2.10 (from -r requirements.txt (line 15))
+  Using cached idna-2.10-py2.py3-none-any.whl.metadata (9.1 kB)
+Requirement already satisfied: Jinja2==3.1.2 in f:\odoo17_win64-portable\wpy64-31242b3\python-3.12.4.amd64\lib\site-packages (from -r requirements.txt (line 17)) (3.1.2)
+Collecting libsass==0.20.1 (from -r requirements.txt (line 18))
+  Using cached libsass-0.20.1.tar.gz (316 kB)
+  Preparing metadata (setup.py) ... done
+Collecting lxml==4.9.2 (from -r requirements.txt (line 20))
+  Using cached lxml-4.9.2.tar.gz (3.7 MB)
+  Preparing metadata (setup.py) ... done
+Collecting MarkupSafe==2.1.2 (from -r requirements.txt (line 22))
+  Using cached MarkupSafe-2.1.2-py3-none-any.whl
+Collecting num2words==0.5.10 (from -r requirements.txt (line 23))
+  Using cached num2words-0.5.10-py3-none-any.whl.metadata (8.9 kB)
+Collecting ofxparse==0.21 (from -r requirements.txt (line 24))
+  Using cached ofxparse-0.21-py3-none-any.whl
+Collecting passlib==1.7.4 (from -r requirements.txt (line 25))
+  Using cached passlib-1.7.4-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting Pillow==9.4.0 (from -r requirements.txt (line 27))
+  Using cached Pillow-9.4.0.tar.gz (50.4 MB)
+  Preparing metadata (setup.py) ... done
+Collecting polib==1.1.1 (from -r requirements.txt (line 28))
+  Using cached polib-1.1.1-py2.py3-none-any.whl.metadata (14 kB)
+Collecting psutil==5.9.4 (from -r requirements.txt (line 30))
+  Using cached psutil-5.9.4-cp36-abi3-win_amd64.whl.metadata (21 kB)
+Collecting psycopg2==2.9.5 (from -r requirements.txt (line 32))
+  Using cached psycopg2-2.9.5.tar.gz (384 kB)
+  Preparing metadata (setup.py) ... error
+  error: subprocess-exited-with-error
+
+  × python setup.py egg_info did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      running egg_info
+      creating C:\Users\MINE\AppData\Local\Temp\pip-pip-egg-info-vonzidtm\psycopg2.egg-info
+      writing C:\Users\MINE\AppData\Local\Temp\pip-pip-egg-info-vonzidtm\psycopg2.egg-info\PKG-INFO
+      writing dependency_links to C:\Users\MINE\AppData\Local\Temp\pip-pip-egg-info-vonzidtm\psycopg2.egg-info\dependency_links.txt
+      writing top-level names to C:\Users\MINE\AppData\Local\Temp\pip-pip-egg-info-vonzidtm\psycopg2.egg-info\top_level.txt
+      writing manifest file 'C:\Users\MINE\AppData\Local\Temp\pip-pip-egg-info-vonzidtm\psycopg2.egg-info\SOURCES.txt'
+
+      Error: pg_config executable not found.
+
+      pg_config is required to build psycopg2 from source.  Please add the directory
+      containing pg_config to the $PATH or specify the full executable path with the
+      option:
+
+          python setup.py build_ext --pg-config /path/to/pg_config build ...
+
+      or with the pg_config option in 'setup.cfg'.
+
+      If you prefer to avoid building psycopg2 from source, please install the PyPI
+      'psycopg2-binary' package instead.
+
+      For further information please check the 'doc/src/install.rst' file (also at
+      <https://www.psycopg.org/docs/install.html>).
+
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+
+[notice] A new release of pip is available: 24.1.1 -> 24.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
