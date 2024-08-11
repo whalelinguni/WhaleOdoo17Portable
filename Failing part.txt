@@ -5,7 +5,7 @@ Once that bit is fixed, and the last whatever made sure it works, initilaizing t
 Would need a launcher or something probably for ease of use. but that would be all of a dozen lines at most.
 Currently this is not setting any env vars that may need to be removed when the portable stuff is shut down.
 
-
+Don't forget that this is still cacheing to AppData\Local\pip? \cache iirc. 
 
 
 Console output:
