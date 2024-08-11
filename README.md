@@ -24,7 +24,7 @@ This repository contains a PowerShell script designed to set up a portable insta
 2. **Run the Script**:
    - Open a PowerShell terminal with administrative privileges.
    - Navigate to the directory containing the script.
-   - Execute the script: `.\doPortable-v5.ps1`
+   - Execute the script: `.\OdooPortableCretear-ThisOneWorks.ps1`
 
 3. **Follow the Prompts**:
    - The script will guide you through the process, including starting necessary downloads, extracting files, and setting up the environment.
